@@ -83,7 +83,7 @@ export function escapeExpression(string) {
   ```
 
   @method htmlSafe
-  @for Ember.String
+  @for Ember.Template
   @static
   @return {Handlebars.SafeString} A string that will not be HTML escaped by Handlebars.
   @public
@@ -109,7 +109,7 @@ export function htmlSafe(str) {
   ```
 
   @method isHTMLSafe
-  @for Ember.String
+  @for Ember.Template
   @static
   @return {Boolean} `true` if the string was decorated with `htmlSafe`, `false` otherwise.
   @public
