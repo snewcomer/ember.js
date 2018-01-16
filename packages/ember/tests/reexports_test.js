@@ -116,7 +116,6 @@ let allExports =[
   ['isGlobalPath', 'ember-metal'],
 
   // ember-views
-  ['$', 'ember-views', 'jQuery'],
   ['ViewUtils.isSimpleClick', 'ember-views', 'isSimpleClick'],
   ['ViewUtils.getViewElement', 'ember-views', 'getViewElement'],
   ['ViewUtils.getViewBounds', 'ember-views', 'getViewBounds'],
