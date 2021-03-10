@@ -38,7 +38,7 @@
     "lint": "yarn lint:tsc && yarn lint:tslint && yarn lint:eslint && yarn lint:docs",
     "lint:docs": "qunit tests/docs/coverage-test.js",
     "lint:eslint": "eslint . --cache",
-    "lint:tsc": "tsc --noEmit",
+    "lint:tsc": "tsc --noEmitt",
     "lint:tslint": "tslint -p tsconfig.json",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:tslint --fix",
     "test": "node bin/run-tests.js",
